@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <title>ChatGPT for Wechat, ChatGPT, 微信, 浏览器插件, 聊天机器人</title>
+    <meta name="description" content="一个 Chrome 浏览器插件，通过 ChatGPT 来自动响应微信私信或群聊中 @你 的消息的智能聊天机器人"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msvalidate.01" content="7DEC26191F45D5E47C4644A275F7C207" />
+  </head>
+  <body class="font-inter antialiased bg-white text-gray-900 tracking-tight">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+        if (localStorage.getItem('sidebar-expanded') == 'true') {
+            document.querySelector('body').classList.add('sidebar-expanded');
+        } else {
+            document.querySelector('body').classList.remove('sidebar-expanded');
+        }
+    </script>   
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script defer data-domain="aow.me" src="https://plausible.io/js/plausible.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5874636604758542" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MEQ0X0H7KK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MEQ0X0H7KK');
+    </script>
+  </body>
+</html>
