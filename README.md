@@ -1,10 +1,10 @@
 # 项目介绍
 
-**ChatGPT for Wechat** 一个 `Chrome` 浏览器插件，通过 `ChatGPT` 来自动响应微信私信或群聊中 `@你` 的消息的智能聊天机器人
+**ChatGPT for Wechat（个人助手版）** 一个 `Chrome` 浏览器插件，通过 `ChatGPT` 来自动响应微信文件传输助手中 `@gpt` 的消息，让微信传输助手秒变智能机器人
 
-项目网址：👉️ [https://chatgpt4wechat.aow.me/](https://chatgpt4wechat.aow.me/)
+项目网址：👉️ [https://chatgpt4filehelper.aow.me/](https://chatgpt4filehelper.aow.me/)
 
-Chrome插件下载：[https://chrome.google.com/webstore/detail/chatgpt-for-wechat/cdlangplaophialnpfbdfndiobanklfd](https://chrome.google.com/webstore/detail/chatgpt-for-wechat/cdlangplaophialnpfbdfndiobanklfd)
+Chrome插件下载：[https://aow.me/chatgpt4filehelper](https://aow.me/chatgpt4filehelper)
 
 ## Usage
 

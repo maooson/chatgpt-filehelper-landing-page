@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesBg1 from '../images/features-wechat_web.jpg';
-import FeaturesBg2 from '../images/features-chatgpt.jpg';
-import FeaturesBg3 from '../images/features-wechat_message.jpg';
+import FeaturesBg1 from '../images/features-1.jpg';
+import FeaturesBg2 from '../images/features-2.jpg';
+import FeaturesBg3 from '../images/features-3.jpg';
 
 function Features() {
 
@@ -46,8 +46,8 @@ function Features() {
                 onClick={(e) => { e.preventDefault(); setTab(1); }}
               >
                 <div>
-                  <div className="font-bold leading-snug tracking-wide mb-1">1. 打开微信网页版页面</div>
-                  <div className="text-gray-600">首先，你需要有一个可以支持微信网页版 <a className="text-blue-500" href="https://wx.qq.com" target="_blank">https://wx.qq.com</a> 登录的微信号</div>
+                  <div className="font-bold leading-snug tracking-wide mb-1">1. 安装ChatGPT for FileHelper浏览器插件</div>
+                  <div className="text-gray-600">按照上面的链接安装浏览器插件，若无法访问 Chrome Store 请下载离线安装包</div>
                 </div>
               </a>
               <a
@@ -56,8 +56,8 @@ function Features() {
                 onClick={(e) => { e.preventDefault(); setTab(2); }}
               >
                 <div>
-                  <div className="font-bold leading-snug tracking-wide mb-1">2. 打开 ChatGPT 的页面</div>
-                  <div className="text-gray-600">其次，你需要有ChatGPT账号并保持页面 <a className="text-blue-500" href="https://chat.openai.com" target="_blank">https://chat.openai.com</a> 处于登录状态</div>
+                  <div className="font-bold leading-snug tracking-wide mb-1">2. 打开微信文件传输助手网页版</div>
+                  <div className="text-gray-600">微信文件传输助手：<a className="text-blue-500" href="https://filehelper.weixin.qq.com" target="_blank">filehelper.weixin.qq.com</a>，如果无法访问请终止后续步骤</div>
                 </div>
               </a>
               <a
@@ -66,8 +66,8 @@ function Features() {
                 onClick={(e) => { e.preventDefault(); setTab(3); }}
               >
                 <div>
-                  <div className="font-bold leading-snug tracking-wide mb-1">3. 触发 ChatGPT 应答微信消息</div>
-                  <div className="text-gray-600">最后，在微信群组或私信中 <span className="text-blue-500">@你的昵称</span> 验证是否能收到 ChatGPT 的回复</div>
+                  <div className="font-bold leading-snug tracking-wide mb-1">3. 选择 AI 源，发送消息 @gpt 验证是否响应</div>
+                  <div className="text-gray-600">在插件配置页面提供了两种 AI 源，ChatGPT 和 OpenAI apikey <span className="text-green-500">（推荐）</span></div>
                 </div>
               </a>
             </div>
@@ -89,7 +89,7 @@ function Features() {
                 leaveEnd="opacity-0 -translate-y-16"
               >
                 <div className="w-full relative inline-flex flex-col">
-                  <img className="md:max-w-none mx-auto rounded" src={FeaturesBg1} width="100%" height="100%" alt="Login wechat web page" />
+                  <img className="md:max-w-none mx-auto rounded" src={FeaturesBg1} width="100%" height="100%" alt="安装ChatGPT for FileHelper浏览器插件" />
                 </div>
               </Transition>
               {/* Item 2 */}
@@ -105,7 +105,7 @@ function Features() {
                 leaveEnd="opacity-0 -translate-y-16"
               >
                 <div className="w-full relative inline-flex flex-col">
-                  <img className="md:max-w-none mx-auto rounded" src={FeaturesBg2} width="100%" height="100%" alt="Login chatgpt page" />
+                  <img className="md:max-w-none mx-auto rounded" src={FeaturesBg2} width="100%" height="100%" alt="打开微信文件传输助手网页版" />
                 </div>
               </Transition>
               {/* Item 3 */}
@@ -121,7 +121,7 @@ function Features() {
                 leaveEnd="opacity-0 -translate-y-16"
               >
                 <div className="w-full relative inline-flex flex-col">
-                  <img className="md:max-w-none mx-auto rounded" src={FeaturesBg3} width="100%" height="100%" alt="Features bg" />
+                  <img className="md:max-w-none mx-auto rounded" src={FeaturesBg3} width="100%" height="100%" alt="选择 AI 源，发送消息 @gpt 验证是否响应" />
                 </div>
               </Transition>
             </div>
