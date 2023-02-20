@@ -78,6 +78,17 @@ const data = {
                     </ul>
                 </div>,
         },
+        {
+            title: <div class="font-bold leading-snug tracking-wide mb-1">使用本插件我该注意点什么？
+            </div>,
+            content:
+                <div className="leading-8 mb-1">
+                    <ul className="list-decimal leading-8">
+                        <li>1. 使用本插件，请仔细阅读<a href="https://aow.me/tos" target="_blank">用户协议</a>，如果你不同意该协议，请立即卸载本插件并删除。</li>
+                        <li>2. 使用本插件，请仔细阅读<a href="https://aow.me/disclaimer" target="_blank">免责声明</a>，如果你不同意该声明，请立即卸载本插件并删除。</li>
+                    </ul>
+                </div>,
+        }
     ],
 };
 
