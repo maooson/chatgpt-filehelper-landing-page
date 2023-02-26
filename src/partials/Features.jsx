@@ -67,7 +67,7 @@ function Features() {
               >
                 <div>
                   <div className="font-bold leading-snug tracking-wide mb-1">3. 选择 AI 源，发送消息 @gpt 验证是否响应</div>
-                  <div className="text-gray-600">在插件配置页面提供了两种 AI 源，ChatGPT 和 OpenAI apikey <span className="text-green-500">（推荐）</span></div>
+                  <div className="text-gray-600">在插件配置页面提供了两种 AI 源，ChatGPT <span className="text-green-500">（推荐）</span> 和 OpenAI apikey</div>
                 </div>
               </a>
             </div>
